@@ -61,7 +61,11 @@
 
     <article class="text-gray-700 sm:mx-12 mb-4 wrapper">
         <h1 class="font-bold font-thin text-3xl text-gray-700"><a href="https://chrisleggett.me/projects/devmarks/">Devmarks</a></h1>
-        <p>Devmarks is a bookmark manager intended for teams of developers to share bookmarks to documentation, intranet sites, and other valuable information.</p>
+        <p>Devmarks is a bookmark manager intended for teams of developers to share bookmarks to documentation, intranet sites, and other valuable information. It is still in development so certain aspects of it are subject to change.</p>
+<p>Planned features include organizing bookmarks into folders and tags, and organizing users into organizations to more quickly share bookmarks and folders with a group of users. On the more technical side, it should have live-updating with WebSockets.</p>
+<p>The app currently consists of two parts, <a href="https://github.com/leggettc18/devmarks-api">an API</a> and <a href="https://github.com/leggettc18/devmarks-frontend-web">a web frontend</a>. Other parts, such as a desktop app or browser extension, could also in theory be developed from the API.</p>
+<p>The API is written in Go and is a fairly basic REST API, with bearer token authentication. Currently the web-based frontend sends a json request with a username and password and then receives the bearer token. I may eventually implement OAuth but I need to understand it better first.</p>
+<p>The Web Frontend is written in VueJS using Vue-Router, Vuex, Typescript, and Vuetify.</p>
 
     </article>
 
