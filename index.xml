@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Lenora</title>
+      <link>https://chrisleggett.me/projects/lenora/</link>
+      <pubDate>Tue, 19 Jan 2021 23:50:03 -0500</pubDate>
+      
+      <guid>https://chrisleggett.me/projects/lenora/</guid>
+      <description>&lt;p&gt;Lenora, in the context of this website, refers to its theme. It is a theme for the
+Hugo static-site generator, and is currently being used for this very site. It
+utilizes TailwindCSS and a full-bleed CSS grid layout.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Space Game</title>
       <link>https://chrisleggett.me/projects/space-game/</link>
       <pubDate>Tue, 19 Jan 2021 23:27:13 -0500</pubDate>
