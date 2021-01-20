@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Space Game</title>
+      <link>https://chrisleggett.me/projects/space-game/</link>
+      <pubDate>Tue, 19 Jan 2021 23:27:13 -0500</pubDate>
+      
+      <guid>https://chrisleggett.me/projects/space-game/</guid>
+      <description>&lt;p&gt;This is a very simple space shooter game written entirely in JavaScript. The goal of this
+was not to make a very compelling or ground-breaking game, but to demonstrate what I believe
+are best practices, based on what I was able to find online.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Devmarks</title>
       <link>https://chrisleggett.me/projects/devmarks/</link>
       <pubDate>Sun, 13 Sep 2020 17:22:48 -0400</pubDate>

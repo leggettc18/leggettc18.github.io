@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portfolio on Christopher Leggett</title>
-    <link>https://chrisleggett.me/categories/portfolio/</link>
-    <description>Recent content in Portfolio on Christopher Leggett</description>
+    <title>shooter on Christopher Leggett</title>
+    <link>https://chrisleggett.me/tags/shooter/</link>
+    <description>Recent content in shooter on Christopher Leggett</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 19 Jan 2021 23:27:13 -0500</lastBuildDate>
     
-	<atom:link href="https://chrisleggett.me/categories/portfolio/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://chrisleggett.me/tags/shooter/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,15 +20,6 @@
       <description>&lt;p&gt;This is a very simple space shooter game written entirely in JavaScript. The goal of this
 was not to make a very compelling or ground-breaking game, but to demonstrate what I believe
 are best practices, based on what I was able to find online.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Devmarks</title>
-      <link>https://chrisleggett.me/projects/devmarks/</link>
-      <pubDate>Sun, 13 Sep 2020 17:22:48 -0400</pubDate>
-      
-      <guid>https://chrisleggett.me/projects/devmarks/</guid>
-      <description>&lt;p&gt;Devmarks is a bookmark manager intended for teams of developers to share bookmarks to documentation, intranet sites, and other valuable information. It is still in development so certain aspects of it are subject to change.&lt;/p&gt;</description>
     </item>
     
   </channel>
