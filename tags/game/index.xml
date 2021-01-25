@@ -6,11 +6,7 @@
     <description>Recent content in game on Christopher Leggett</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Jan 2021 23:27:13 -0500</lastBuildDate>
-    
-	<atom:link href="https://chrisleggett.me/tags/game/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 19 Jan 2021 23:27:13 -0500</lastBuildDate><atom:link href="https://chrisleggett.me/tags/game/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Space Game</title>
       <link>https://chrisleggett.me/projects/space-game/</link>
