@@ -6,7 +6,18 @@
     <description>Recent content in Projects on Christopher Leggett</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Jan 2021 23:50:03 -0500</lastBuildDate><atom:link href="https://chrisleggett.me/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Feb 2021 21:12:56 -0500</lastBuildDate><atom:link href="https://chrisleggett.me/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hackernews Clone</title>
+      <link>https://chrisleggett.me/projects/hackernews-clone/</link>
+      <pubDate>Tue, 09 Feb 2021 21:12:56 -0500</pubDate>
+      
+      <guid>https://chrisleggett.me/projects/hackernews-clone/</guid>
+      <description>&lt;p&gt;This is a small educational project I wrote up to teach myself GraphQL and how to implement a
+GraphQL API in Go. It&amp;rsquo;s nothing &lt;strong&gt;too&lt;/strong&gt; fancy, but it might be useful to someone learning GraphQL
+themselves.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Lenora</title>
       <link>https://chrisleggett.me/projects/lenora/</link>

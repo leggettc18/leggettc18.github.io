@@ -3,7 +3,9 @@
     <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Christopher Leggett - Christopher Leggett</title>
+    <title>Hackernews Clone - Christopher Leggett</title>
+    <meta name="description" content="Hackernews clone utilizing a GraphQL API backend and a Vue-Apollo frontend." />
+    
     <meta name="author" content="Christopher Leggett" />
     <meta name="generator" content="Hugo 0.80.0" /><link rel="stylesheet" href="https://chrisleggett.me/css/styles.min.f6fcc707c586fd979aca03206dcdbf0b9da9bb1766f232eef7b0b8b3ded2941a.css" integrity="sha256-9vzHB8WG/ZeaygMgbc2/C52puxdm8jLu97C4s97SlBo=">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -60,54 +62,33 @@
         </ul>
     </nav>
 </header><main class="flex-1 mx-4 md:mx-12 lg:mx-24 mt-4 sm:mt-16">
-<article class="text-center text-gray-700 wrapper">
-    <h1 class="font-serif font-thin text-5xl text-gray-500">Christopher Leggett</h1>
-    <p>Portfolio and Blog of East Carolina University Computer Science Graduate and aspiring Software Engineer.</p>
-
+<article class="text-gray-700 sm:mx-12 wrapper">
+    <h1 class="font-bold text-3xl text-gray-700 text-center">Hackernews Clone</h1>
     <div class="full-bleed border-b">
     </div>
-    <div class="text-left">
     
-        <h2 class="font-serif font-thin text-4xl text-gray-600 mt-3 pt-3">
-            Recent Projects
-        </h2>
-        
-            <p>
-                <div>
-                    <a href="https://chrisleggett.me/projects/hackernews-clone/">Hackernews Clone</a>
-                </div>
-                <div>
-                    <p>This is a small educational project I wrote up to teach myself GraphQL and how to implement a
+    <a
+        type="button"
+        class="border border-black bg-black text-gray-500 font-bold rounded-md px-4 py-2 m-2 select-none hover:text-purple-400 focus:outline-none focus:shadow-outline text-center"
+        href="https://github.com/leggettc18/hackernews-clone-api"
+    >
+        Check it out on Github!
+    </a>
+    
+    <p>This is a small educational project I wrote up to teach myself GraphQL and how to implement a
 GraphQL API in Go. It&rsquo;s nothing <strong>too</strong> fancy, but it might be useful to someone learning GraphQL
 themselves.</p>
-                </div>
-            </p>
-        
-            <p>
-                <div>
-                    <a href="https://chrisleggett.me/projects/lenora/">Lenora</a>
-                </div>
-                <div>
-                    <p>Lenora, in the context of this website, refers to its theme. It is a theme for the
-Hugo static-site generator, and is currently being used for this very site. It
-utilizes TailwindCSS and a full-bleed CSS grid layout.</p>
-                </div>
-            </p>
-        
-            <p>
-                <div>
-                    <a href="https://chrisleggett.me/projects/space-game/">Space Game</a>
-                </div>
-                <div>
-                    <p>This is a very simple space shooter game written entirely in JavaScript. The goal of this
-was not to make a very compelling or ground-breaking game, but to demonstrate what I believe
-are best practices, based on what I was able to find online.</p>
-                </div>
-            </p>
-        
-        <a class="text-gray-600" href=https://chrisleggett.me/projects/>More Projects...</a>
-    
-    </div>
+<p>For the <a href="https://github.com/leggettc18/hackernews-clone-api">backend</a>, it utilizes the graph-gophers
+packages for parsing the schema, mapping incoming requests to the correct resolvers, and handling
+subscriptions. It has a working setup for Websocket Subscriptions, Pagination, etc. Feel free to
+look it over, take what I wrote with a grain of salt, but you may learn something new!</p>
+<p>For the <a href="https://github.com/leggettc18/hackernews-vue-apollo">frontend</a>, it utilizes the[] Vue
+version of the Apollo](<a href="https://apollo.vuejs.org/">https://apollo.vuejs.org/</a>) library. I followed a tutorial that may
+or may not be slightly out of date, so some review and revision may be in order. Keep that in
+mind if you choose to use it as an educational resource.</p>
+<p>Feedback is appreciated if you come across these and find any glaring issues, or ways to improve
+them as educational resources. Feel free to leave an issue on whichever repo the code changes would
+go in.</p>
 </article>
 
         </main><footer class="w-full text-center border-t border-gray-200 p-4 pin-b text-xs text-gray-400">
