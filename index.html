@@ -8,7 +8,7 @@
     <meta name="twitter:card" content="summary" />
     <meta name="author" content="Christopher Leggett" />
     <meta name="twitter:creator" content="@leggettc18" />
-    <meta name="generator" content="Hugo 0.83.1" /><link rel="stylesheet" href="https://chrisleggett.me/css/styles.min.3bc85755fa580b2c9b2b1f33014257589d4a9de020245e077c1135741d39e7f1.css" integrity="sha256-O8hXVfpYCyybKx8zAUJXWJ1KneAgJF4HfBE1dB055/E=">
+    <meta name="generator" content="Hugo 0.86.0" /><link rel="stylesheet" href="https://chrisleggett.me/css/styles.min.3bc85755fa580b2c9b2b1f33014257589d4a9de020245e077c1135741d39e7f1.css" integrity="sha256-O8hXVfpYCyybKx8zAUJXWJ1KneAgJF4HfBE1dB055/E=">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <meta property="og:image" content="https://chrisleggett.me/me.jpg" />
@@ -58,6 +58,10 @@
             
             
             <li>
+                <a href="https://chrisleggett.me/post/" class="text-gray-400 hover:text-purple-400">Posts</a>
+            </li>
+            
+            <li>
                 <a href="https://chrisleggett.me/projects/" class="text-gray-400 hover:text-purple-400">Projects</a>
             </li>
             
@@ -80,6 +84,20 @@
     <div class="border-b-2 m-8">
     </div>
     <div class="text-left wrapper mx-4 md:mx-12 lg:mx-48 xl:px-48 mb-4">
+    
+        <h2 class="font-serif font-thin text-4xl text-gray-600 mt-3 py-3">
+            Recent Posts
+        </h2>
+        
+                <div>
+                    <a href="https://chrisleggett.me/post/golang-rest-api-embed-parameter/">Golang REST API Tip - Use an Embed Parameter to Embed Related Resources</a>
+                </div>
+                <div>
+                    In a REST API, you often have relations between resources. While you can certainly return IDs for these related objects and require the API consumer to query them, that can be somewhat inconvenient for your users. On the other hand, you certainly don&rsquo;t want to eagerly load these on every request, or you could be sending unnecessarily large payloads in your responses. So what can you do?
+In my case, I chose to support a query parameter with the name embed.
+                </div>
+        
+        <a class="text-gray-600" href=https://chrisleggett.me/post/>More Posts...</a>
     
         <h2 class="font-serif font-thin text-4xl text-gray-600 mt-3 py-3">
             Recent Projects
