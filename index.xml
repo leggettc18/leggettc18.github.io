@@ -7,5 +7,69 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 13 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://chrisleggett.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Golang REST API Tip - Use an Embed Parameter to Embed Related Resources</title>
+      <link>https://chrisleggett.me/post/golang-rest-api-embed-parameter/</link>
+      <pubDate>Thu, 22 Jul 2021 23:37:34 -0400</pubDate>
+      
+      <guid>https://chrisleggett.me/post/golang-rest-api-embed-parameter/</guid>
+      <description>In a REST API, you often have relations between resources. While you can certainly return IDs for these related objects and require the API consumer to query them, that can be somewhat inconvenient for your users. On the other hand, you certainly don&amp;rsquo;t want to eagerly load these on every request, or you could be sending unnecessarily large payloads in your responses. So what can you do?
+In my case, I chose to support a query parameter with the name embed.</description>
+    </item>
+    
+    <item>
+      <title>Hackernews Clone</title>
+      <link>https://chrisleggett.me/projects/hackernews-clone/</link>
+      <pubDate>Tue, 09 Feb 2021 21:12:56 -0500</pubDate>
+      
+      <guid>https://chrisleggett.me/projects/hackernews-clone/</guid>
+      <description>&lt;p&gt;This is a small educational project I wrote up to teach myself GraphQL and how to implement a
+GraphQL API in Go. It&amp;rsquo;s nothing &lt;strong&gt;too&lt;/strong&gt; fancy, but it might be useful to someone learning GraphQL
+themselves.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Lenora</title>
+      <link>https://chrisleggett.me/projects/lenora/</link>
+      <pubDate>Tue, 19 Jan 2021 23:50:03 -0500</pubDate>
+      
+      <guid>https://chrisleggett.me/projects/lenora/</guid>
+      <description>&lt;p&gt;Lenora, in the context of this website, refers to its theme. It is a theme for the
+Hugo static-site generator, and is currently being used for this very site. It
+utilizes TailwindCSS and a full-bleed CSS grid layout.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Space Game</title>
+      <link>https://chrisleggett.me/projects/space-game/</link>
+      <pubDate>Tue, 19 Jan 2021 23:27:13 -0500</pubDate>
+      
+      <guid>https://chrisleggett.me/projects/space-game/</guid>
+      <description>&lt;p&gt;This is a very simple space shooter game written entirely in JavaScript. The goal of this
+was not to make a very compelling or ground-breaking game, but to demonstrate what I believe
+are best practices, based on what I was able to find online.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Devmarks</title>
+      <link>https://chrisleggett.me/projects/devmarks/</link>
+      <pubDate>Sun, 13 Sep 2020 17:22:48 -0400</pubDate>
+      
+      <guid>https://chrisleggett.me/projects/devmarks/</guid>
+      <description>&lt;p&gt;Devmarks is a bookmark manager intended for teams of developers to share
+bookmarks to documentation, intranet sites, and other valuable information. It
+is still in development so certain aspects of it are subject to change.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://chrisleggett.me/about/</link>
+      <pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisleggett.me/about/</guid>
+      <description>My name is Christopher Leggett, I&amp;rsquo;m an East Carolina University Graduate with a Bachelor of Science Degree in Computer Science. I am currently an IT technician by trade but my end goal is to be a Full Stack or Backend Developer.
+This Portfolio/Blog is written in Hugo and is using a customized theme, which I call Lenora (after my girlfriend, pictured here peeking over my shoulder). It leverages TailwindCSS, if you would like to use it for your site, the Github link is here.</description>
+    </item>
+    
   </channel>
 </rss>
