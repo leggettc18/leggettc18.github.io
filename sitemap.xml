@@ -2,10 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://chrisleggett.me/tags/api/</loc>
+    <lastmod>2021-07-22T23:37:34-04:00</lastmod>
+  </url><url>
+    <loc>https://chrisleggett.me/tags/embed/</loc>
+    <lastmod>2021-07-22T23:37:34-04:00</lastmod>
+  </url><url>
+    <loc>https://chrisleggett.me/tags/go/</loc>
+    <lastmod>2021-07-22T23:37:34-04:00</lastmod>
+  </url><url>
     <loc>https://chrisleggett.me/post/golang-rest-api-embed-parameter/</loc>
     <lastmod>2021-07-22T23:37:34-04:00</lastmod>
   </url><url>
     <loc>https://chrisleggett.me/post/</loc>
+    <lastmod>2021-07-22T23:37:34-04:00</lastmod>
+  </url><url>
+    <loc>https://chrisleggett.me/tags/rest/</loc>
+    <lastmod>2021-07-22T23:37:34-04:00</lastmod>
+  </url><url>
+    <loc>https://chrisleggett.me/tags/</loc>
     <lastmod>2021-07-22T23:37:34-04:00</lastmod>
   </url><url>
     <loc>https://chrisleggett.me/tags/apollo/</loc>
@@ -17,10 +32,7 @@
     <loc>https://chrisleggett.me/categories/</loc>
     <lastmod>2021-02-09T21:12:56-05:00</lastmod>
   </url><url>
-    <loc>https://chrisleggett.me/tags/fronted/</loc>
-    <lastmod>2021-02-09T21:12:56-05:00</lastmod>
-  </url><url>
-    <loc>https://chrisleggett.me/tags/go/</loc>
+    <loc>https://chrisleggett.me/tags/frontend/</loc>
     <lastmod>2021-02-09T21:12:56-05:00</lastmod>
   </url><url>
     <loc>https://chrisleggett.me/tags/graphql/</loc>
@@ -33,9 +45,6 @@
     <lastmod>2021-02-09T21:12:56-05:00</lastmod>
   </url><url>
     <loc>https://chrisleggett.me/projects/</loc>
-    <lastmod>2021-02-09T21:12:56-05:00</lastmod>
-  </url><url>
-    <loc>https://chrisleggett.me/tags/</loc>
     <lastmod>2021-02-09T21:12:56-05:00</lastmod>
   </url><url>
     <loc>https://chrisleggett.me/tags/vuejs/</loc>
@@ -53,7 +62,7 @@
     <loc>https://chrisleggett.me/tags/minimalism/</loc>
     <lastmod>2021-01-19T23:50:03-05:00</lastmod>
   </url><url>
-    <loc>https://chrisleggett.me/tags/thene/</loc>
+    <loc>https://chrisleggett.me/tags/theme/</loc>
     <lastmod>2021-01-19T23:50:03-05:00</lastmod>
   </url><url>
     <loc>https://chrisleggett.me/tags/game/</loc>
@@ -75,6 +84,9 @@
     <lastmod>2020-09-13T17:22:48-04:00</lastmod>
   </url><url>
     <loc>https://chrisleggett.me/projects/devmarks/</loc>
+    <lastmod>2020-09-13T17:22:48-04:00</lastmod>
+  </url><url>
+    <loc>https://chrisleggett.me/tags/devmarks/</loc>
     <lastmod>2020-09-13T17:22:48-04:00</lastmod>
   </url><url>
     <loc>https://chrisleggett.me/tags/organization/</loc>

@@ -6,7 +6,43 @@
     <description>Recent content in Tags on Christopher Leggett</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Feb 2021 21:12:56 -0500</lastBuildDate><atom:link href="https://chrisleggett.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Jul 2021 23:37:34 -0400</lastBuildDate><atom:link href="https://chrisleggett.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>api</title>
+      <link>https://chrisleggett.me/tags/api/</link>
+      <pubDate>Thu, 22 Jul 2021 23:37:34 -0400</pubDate>
+      
+      <guid>https://chrisleggett.me/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>embed</title>
+      <link>https://chrisleggett.me/tags/embed/</link>
+      <pubDate>Thu, 22 Jul 2021 23:37:34 -0400</pubDate>
+      
+      <guid>https://chrisleggett.me/tags/embed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>https://chrisleggett.me/tags/go/</link>
+      <pubDate>Thu, 22 Jul 2021 23:37:34 -0400</pubDate>
+      
+      <guid>https://chrisleggett.me/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rest</title>
+      <link>https://chrisleggett.me/tags/rest/</link>
+      <pubDate>Thu, 22 Jul 2021 23:37:34 -0400</pubDate>
+      
+      <guid>https://chrisleggett.me/tags/rest/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>apollo</title>
       <link>https://chrisleggett.me/tags/apollo/</link>
@@ -26,20 +62,11 @@
     </item>
     
     <item>
-      <title>fronted</title>
-      <link>https://chrisleggett.me/tags/fronted/</link>
+      <title>frontend</title>
+      <link>https://chrisleggett.me/tags/frontend/</link>
       <pubDate>Tue, 09 Feb 2021 21:12:56 -0500</pubDate>
       
-      <guid>https://chrisleggett.me/tags/fronted/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>go</title>
-      <link>https://chrisleggett.me/tags/go/</link>
-      <pubDate>Tue, 09 Feb 2021 21:12:56 -0500</pubDate>
-      
-      <guid>https://chrisleggett.me/tags/go/</guid>
+      <guid>https://chrisleggett.me/tags/frontend/</guid>
       <description></description>
     </item>
     
@@ -89,11 +116,11 @@
     </item>
     
     <item>
-      <title>thene</title>
-      <link>https://chrisleggett.me/tags/thene/</link>
+      <title>theme</title>
+      <link>https://chrisleggett.me/tags/theme/</link>
       <pubDate>Tue, 19 Jan 2021 23:50:03 -0500</pubDate>
       
-      <guid>https://chrisleggett.me/tags/thene/</guid>
+      <guid>https://chrisleggett.me/tags/theme/</guid>
       <description></description>
     </item>
     
@@ -139,6 +166,15 @@
       <pubDate>Sun, 13 Sep 2020 17:22:48 -0400</pubDate>
       
       <guid>https://chrisleggett.me/tags/developers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devmarks</title>
+      <link>https://chrisleggett.me/tags/devmarks/</link>
+      <pubDate>Sun, 13 Sep 2020 17:22:48 -0400</pubDate>
+      
+      <guid>https://chrisleggett.me/tags/devmarks/</guid>
       <description></description>
     </item>
     

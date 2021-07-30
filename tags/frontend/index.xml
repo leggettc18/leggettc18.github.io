@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>frontend on Christopher Leggett</title>
+    <link>https://chrisleggett.me/tags/frontend/</link>
+    <description>Recent content in frontend on Christopher Leggett</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Feb 2021 21:12:56 -0500</lastBuildDate><atom:link href="https://chrisleggett.me/tags/frontend/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hackernews Clone</title>
+      <link>https://chrisleggett.me/projects/hackernews-clone/</link>
+      <pubDate>Tue, 09 Feb 2021 21:12:56 -0500</pubDate>
+      
+      <guid>https://chrisleggett.me/projects/hackernews-clone/</guid>
+      <description>&lt;p&gt;This is a small educational project I wrote up to teach myself GraphQL and how to implement a
+GraphQL API in Go. It&amp;rsquo;s nothing &lt;strong&gt;too&lt;/strong&gt; fancy, but it might be useful to someone learning GraphQL
+themselves.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
