@@ -11,7 +11,7 @@
     
     <meta name="author" content="Christopher Leggett" />
     <meta name="twitter:creator" content="@leggettc18" />
-    <meta name="generator" content="Hugo 0.86.0" /><link rel="stylesheet" href="https://chrisleggett.me/css/styles.min.6076e1a55fee4d3cdf634b001c5e12dcdc708a4327296da80ee637858579be6d.css" integrity="sha256-YHbhpV/uTTzfY0sAHF4S3NxwikMnKW2oDuY3hYV5vm0=">
+    <meta name="generator" content="Hugo 0.86.0" /><link rel="stylesheet" href="https://chrisleggett.me/css/styles.min.e574bf96ef92d75fad9e15ec12fa323f5d05620b5650ef1887c05f832ca0da9e.css" integrity="sha256-5XS/lu+S11+tnhXsEvoyP10FYgtWUO8Yh8Bfgyyg2p4=">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <meta property="og:image" content="https://chrisleggett.me/me.jpg" />
@@ -55,23 +55,41 @@
 
         <div id="nav-menu" class="sm:flex w-full sm:w-auto hidden sm:block mt-2 sm:mt-0 sm:space-x-2">
             
-            <div>
-                <a href="https://chrisleggett.me/about/" class="text-gray-400 hover:text-purple-400">About</a>
-            </div>
+            <a class="nav-link flex flex-row items-center" href="/about">
             
             
-            <div>
-                <a href="https://chrisleggett.me/post/" class="text-gray-400 hover:text-purple-400">Posts</a>
-            </div>
-            
-            <div>
-                <a href="https://chrisleggett.me/projects/" class="text-gray-400 hover:text-purple-400">Projects</a>
-            </div>
+            <i data-feather="at-sign" class="pr-1"></i> 
             
             
-            <div>
-                <a href="https://chrisleggett.me/tags/" class="text-gray-400 hover:text-purple-400">Tags</a>
-            </div>
+            About
+            </a>
+            
+            <a class="nav-link flex flex-row items-center" href="/projects">
+            
+            
+            <i data-feather="code" class="pr-1"></i> 
+            
+            
+            Projects
+            </a>
+            
+            <a class="nav-link flex flex-row items-center" href="/posts">
+            
+            
+            <i data-feather="book-open" class="pr-1"></i> 
+            
+            
+            Posts
+            </a>
+            
+            <a class="nav-link flex flex-row items-center" href="/tags">
+            
+            
+            <i data-feather="tag" class="pr-1"></i> 
+            
+            
+            Tags
+            </a>
             
         </div>
     </nav>
@@ -81,23 +99,25 @@
         
         
 
-<div class="flex flex-row flex-wrap space-x-2 items-center p-2">
-<time datetime="2021-07-22">Jul 22, 2021</time>
-
-
-
-<a class="rounded bg-purple-400 hover:bg-purple-700 text-white px-1 my-1" href="https://chrisleggett.me/tags/go">go</a>
-
-
-<a class="rounded bg-purple-400 hover:bg-purple-700 text-white px-1 my-1" href="https://chrisleggett.me/tags/rest">rest</a>
-
-
-<a class="rounded bg-purple-400 hover:bg-purple-700 text-white px-1 my-1" href="https://chrisleggett.me/tags/api">api</a>
-
-
-<a class="rounded bg-purple-400 hover:bg-purple-700 text-white px-1 my-1" href="https://chrisleggett.me/tags/embed">embed</a>
-
-
+<div class="flex flex-row flex-wrap items-center p-2 space-x-2">
+    <i data-feather="calendar"></i>
+    <time datetime="2021-07-22">Jul 22, 2021</time>
+    
+    <i data-feather="tag"></i>
+    
+    
+    <a class="rounded bg-purple-400 hover:bg-purple-700 text-white px-1 my-1" href="https://chrisleggett.me/tags/go">go</a>
+    
+    
+    <a class="rounded bg-purple-400 hover:bg-purple-700 text-white px-1 my-1" href="https://chrisleggett.me/tags/rest">rest</a>
+    
+    
+    <a class="rounded bg-purple-400 hover:bg-purple-700 text-white px-1 my-1" href="https://chrisleggett.me/tags/api">api</a>
+    
+    
+    <a class="rounded bg-purple-400 hover:bg-purple-700 text-white px-1 my-1" href="https://chrisleggett.me/tags/embed">embed</a>
+    
+    
 </div>
         
     <div class="full-bleed border-b">
@@ -290,5 +310,8 @@ reorganization this idea probably won&rsquo;t change. Check it out <a href="http
             <a href="mailto:chris@leggett.dev">chris@leggett.dev</a>
         </div>
     </div>
-</footer></body>
+</footer><script src="/js/feather.min.js"></script>
+<script>
+    feather.replace()
+</script></body>
 </html>
