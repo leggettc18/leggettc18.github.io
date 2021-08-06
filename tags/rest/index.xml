@@ -9,10 +9,10 @@
     <lastBuildDate>Thu, 22 Jul 2021 23:37:34 -0400</lastBuildDate><atom:link href="https://chrisleggett.me/tags/rest/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Golang REST API Tip - Use an Embed Parameter to Embed Related Resources</title>
-      <link>https://chrisleggett.me/post/golang-rest-api-embed-parameter/</link>
+      <link>https://chrisleggett.me/posts/golang-rest-api-embed-parameter/</link>
       <pubDate>Thu, 22 Jul 2021 23:37:34 -0400</pubDate>
       
-      <guid>https://chrisleggett.me/post/golang-rest-api-embed-parameter/</guid>
+      <guid>https://chrisleggett.me/posts/golang-rest-api-embed-parameter/</guid>
       <description>In a REST API, you often have relations between resources. While you can certainly return IDs for these related objects and require the API consumer to query them, that can be somewhat inconvenient for your users. On the other hand, you certainly don&amp;rsquo;t want to eagerly load these on every request, or you could be sending unnecessarily large payloads in your responses. So what can you do?
 In my case, I chose to support a query parameter with the name embed.</description>
     </item>
