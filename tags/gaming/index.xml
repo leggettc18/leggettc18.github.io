@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>graphql on Christopher Leggett</title>
-    <link>https://chrisleggett.me/tags/graphql/</link>
-    <description>Recent content in graphql on Christopher Leggett</description>
+    <title>gaming on Christopher Leggett</title>
+    <link>https://chrisleggett.me/tags/gaming/</link>
+    <description>Recent content in gaming on Christopher Leggett</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Aug 2021 09:42:56 -0400</lastBuildDate><atom:link href="https://chrisleggett.me/tags/graphql/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Aug 2021 09:42:56 -0400</lastBuildDate><atom:link href="https://chrisleggett.me/tags/gaming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Grindlists</title>
       <link>https://chrisleggett.me/projects/grindlists/</link>
@@ -14,17 +14,6 @@
       
       <guid>https://chrisleggett.me/projects/grindlists/</guid>
       <description>Grindlists is a web application designed to help gamers organize their grinding sessions. For any readers who don&amp;rsquo;t know what that means, sometimes a game requires a player to collect materials to complete a quest or craft an item. Sometimes those items also require crafting intermediate items, and it can be a lot to keep track of. The goal of Grindlists is to help gamers keep track of what items they need, how many they need, and where those items can be found.</description>
-    </item>
-    
-    <item>
-      <title>Hackernews Clone</title>
-      <link>https://chrisleggett.me/projects/hackernews-clone/</link>
-      <pubDate>Tue, 09 Feb 2021 21:12:56 -0500</pubDate>
-      
-      <guid>https://chrisleggett.me/projects/hackernews-clone/</guid>
-      <description>&lt;p&gt;This is a small educational project I wrote up to teach myself GraphQL and how to implement a
-GraphQL API in Go. It&amp;rsquo;s nothing &lt;strong&gt;too&lt;/strong&gt; fancy, but it might be useful to someone learning GraphQL
-themselves.&lt;/p&gt;</description>
     </item>
     
   </channel>

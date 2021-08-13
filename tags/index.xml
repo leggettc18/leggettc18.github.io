@@ -6,13 +6,58 @@
     <description>Recent content in Tags on Christopher Leggett</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Jul 2021 23:37:34 -0400</lastBuildDate><atom:link href="https://chrisleggett.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Aug 2021 09:42:56 -0400</lastBuildDate><atom:link href="https://chrisleggett.me/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>api</title>
       <link>https://chrisleggett.me/tags/api/</link>
-      <pubDate>Thu, 22 Jul 2021 23:37:34 -0400</pubDate>
+      <pubDate>Fri, 13 Aug 2021 09:42:56 -0400</pubDate>
       
       <guid>https://chrisleggett.me/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gaming</title>
+      <link>https://chrisleggett.me/tags/gaming/</link>
+      <pubDate>Fri, 13 Aug 2021 09:42:56 -0400</pubDate>
+      
+      <guid>https://chrisleggett.me/tags/gaming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>https://chrisleggett.me/tags/go/</link>
+      <pubDate>Fri, 13 Aug 2021 09:42:56 -0400</pubDate>
+      
+      <guid>https://chrisleggett.me/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>graphql</title>
+      <link>https://chrisleggett.me/tags/graphql/</link>
+      <pubDate>Fri, 13 Aug 2021 09:42:56 -0400</pubDate>
+      
+      <guid>https://chrisleggett.me/tags/graphql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>grindlists</title>
+      <link>https://chrisleggett.me/tags/grindlists/</link>
+      <pubDate>Fri, 13 Aug 2021 09:42:56 -0400</pubDate>
+      
+      <guid>https://chrisleggett.me/tags/grindlists/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>organization</title>
+      <link>https://chrisleggett.me/tags/organization/</link>
+      <pubDate>Fri, 13 Aug 2021 09:42:56 -0400</pubDate>
+      
+      <guid>https://chrisleggett.me/tags/organization/</guid>
       <description></description>
     </item>
     
@@ -22,15 +67,6 @@
       <pubDate>Thu, 22 Jul 2021 23:37:34 -0400</pubDate>
       
       <guid>https://chrisleggett.me/tags/embed/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>go</title>
-      <link>https://chrisleggett.me/tags/go/</link>
-      <pubDate>Thu, 22 Jul 2021 23:37:34 -0400</pubDate>
-      
-      <guid>https://chrisleggett.me/tags/go/</guid>
       <description></description>
     </item>
     
@@ -67,15 +103,6 @@
       <pubDate>Tue, 09 Feb 2021 21:12:56 -0500</pubDate>
       
       <guid>https://chrisleggett.me/tags/frontend/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>graphql</title>
-      <link>https://chrisleggett.me/tags/graphql/</link>
-      <pubDate>Tue, 09 Feb 2021 21:12:56 -0500</pubDate>
-      
-      <guid>https://chrisleggett.me/tags/graphql/</guid>
       <description></description>
     </item>
     
@@ -175,15 +202,6 @@
       <pubDate>Sun, 13 Sep 2020 17:22:48 -0400</pubDate>
       
       <guid>https://chrisleggett.me/tags/devmarks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>organization</title>
-      <link>https://chrisleggett.me/tags/organization/</link>
-      <pubDate>Sun, 13 Sep 2020 17:22:48 -0400</pubDate>
-      
-      <guid>https://chrisleggett.me/tags/organization/</guid>
       <description></description>
     </item>
     
