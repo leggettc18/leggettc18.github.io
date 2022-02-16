@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>elementary on Christopher Leggett</title>
+    <link>https://chrisleggett.me/tags/elementary/</link>
+    <description>Recent content in elementary on Christopher Leggett</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Feb 2022 04:06:38 +0000</lastBuildDate><atom:link href="https://chrisleggett.me/tags/elementary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leopod</title>
+      <link>https://chrisleggett.me/projects/leopod/</link>
+      <pubDate>Wed, 16 Feb 2022 04:06:38 +0000</pubDate>
+      
+      <guid>https://chrisleggett.me/projects/leopod/</guid>
+      <description>&lt;p&gt;Leopod is a podcast subscription organizer and player written from the ground up for Elementary OS, though
+it should be usable on any Linux Desktop thanks to Flatpak. Currently you can add feeds and it will check for updates
+while the app is open, and you can download and play episodes. It will also remember the last played position of an
+episode you didn&amp;rsquo;t finish. The current version is 1.0.1 and a 1.1 version with some smoother UI interactions and the
+ability to speed up playback is on the way.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

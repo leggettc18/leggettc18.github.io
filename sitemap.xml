@@ -2,10 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://chrisleggett.me/tags/api/</loc>
-    <lastmod>2021-08-13T09:42:56-04:00</lastmod>
-  </url><url>
     <loc>https://chrisleggett.me/categories/</loc>
+    <lastmod>2022-02-16T04:06:38+00:00</lastmod>
+  </url><url>
+    <loc>https://chrisleggett.me/tags/elementary/</loc>
+    <lastmod>2022-02-16T04:06:38+00:00</lastmod>
+  </url><url>
+    <loc>https://chrisleggett.me/projects/leopod/</loc>
+    <lastmod>2022-02-16T04:06:38+00:00</lastmod>
+  </url><url>
+    <loc>https://chrisleggett.me/tags/linux/</loc>
+    <lastmod>2022-02-16T04:06:38+00:00</lastmod>
+  </url><url>
+    <loc>https://chrisleggett.me/tags/podcasts/</loc>
+    <lastmod>2022-02-16T04:06:38+00:00</lastmod>
+  </url><url>
+    <loc>https://chrisleggett.me/categories/portfolio/</loc>
+    <lastmod>2022-02-16T04:06:38+00:00</lastmod>
+  </url><url>
+    <loc>https://chrisleggett.me/projects/</loc>
+    <lastmod>2022-02-16T04:06:38+00:00</lastmod>
+  </url><url>
+    <loc>https://chrisleggett.me/tags/</loc>
+    <lastmod>2022-02-16T04:06:38+00:00</lastmod>
+  </url><url>
+    <loc>https://chrisleggett.me/tags/vala/</loc>
+    <lastmod>2022-02-16T04:06:38+00:00</lastmod>
+  </url><url>
+    <loc>https://chrisleggett.me/tags/api/</loc>
     <lastmod>2021-08-13T09:42:56-04:00</lastmod>
   </url><url>
     <loc>https://chrisleggett.me/tags/gaming/</loc>
@@ -24,15 +48,6 @@
     <lastmod>2021-08-13T09:42:56-04:00</lastmod>
   </url><url>
     <loc>https://chrisleggett.me/tags/organization/</loc>
-    <lastmod>2021-08-13T09:42:56-04:00</lastmod>
-  </url><url>
-    <loc>https://chrisleggett.me/categories/portfolio/</loc>
-    <lastmod>2021-08-13T09:42:56-04:00</lastmod>
-  </url><url>
-    <loc>https://chrisleggett.me/projects/</loc>
-    <lastmod>2021-08-13T09:42:56-04:00</lastmod>
-  </url><url>
-    <loc>https://chrisleggett.me/tags/</loc>
     <lastmod>2021-08-13T09:42:56-04:00</lastmod>
   </url><url>
     <loc>https://chrisleggett.me/tags/embed/</loc>
