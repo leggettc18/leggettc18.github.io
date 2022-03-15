@@ -11,7 +11,7 @@
     
     <meta name="author" content="Christopher Leggett" />
     <meta name="twitter:creator" content="@leggettc18" />
-    <meta name="generator" content="Hugo 0.92.2" /><link rel="stylesheet" href="https://chrisleggett.me/css/styles.min.f158f68748d7ce036cb512f69c237df5a2df9a137e59c1f33e25bead2b908785.css" integrity="sha256-8Vj2h0jXzgNstRL2nCN99aLfmhN+WcHzPiW+rSuQh4U=">
+    <meta name="generator" content="Hugo 0.94.2" /><link rel="stylesheet" href="https://chrisleggett.me/css/styles.min.11077f51a90a62acdc14bb7f2972b1c8f9e3447c1a61ee2a393922f8b9abaf7a.css" integrity="sha256-EQd/UakKYqzcFLt/KXKxyPnjRHwaYe4qOTki+Lmrr3o=">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <meta property="og:image" content="https://chrisleggett.me/me.jpg" />
@@ -160,25 +160,25 @@ the logic is that we are &ldquo;embedding&rdquo; the related resource in the res
 the resource requested by the path. For example, in a bookmark management app,
 you may be requesting a folder and embed the bookmarks in the folder
 with the following URL.</p>
-<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">&lt;baseUrl&gt;/folders/&lt;id&gt;/?embed<span style="color:#f92672">=</span>bookmarks
-</code></pre></div><p>With that, you would receive a response body similar to the following:</p>
-<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JSON" data-lang="JSON"><span style="color:#111">{</span>
-    <span style="color:#f92672">&#34;id&#34;</span><span style="color:#111">:</span> <span style="color:#ae81ff">1</span><span style="color:#111">,</span>
-    <span style="color:#f92672">&#34;name&#34;</span><span style="color:#111">:</span> <span style="color:#d88200">&#34;folder&#34;</span><span style="color:#111">,</span>
-    <span style="color:#f92672">&#34;bookmarks&#34;</span><span style="color:#111">:</span> <span style="color:#111">[</span>
-        <span style="color:#111">{</span>
-            <span style="color:#f92672">&#34;id&#34;</span><span style="color:#111">:</span> <span style="color:#ae81ff">1</span><span style="color:#111">,</span>
-            <span style="color:#f92672">&#34;name&#34;</span><span style="color:#111">:</span> <span style="color:#d88200">&#34;My Website&#34;</span><span style="color:#111">,</span>
-            <span style="color:#f92672">&#34;url&#34;</span><span style="color:#111">:</span> <span style="color:#d88200">&#34;https://chrisleggett.me&#34;</span>
-        <span style="color:#111">},</span>
-        <span style="color:#111">{</span>
-            <span style="color:#f92672">&#34;id&#34;</span><span style="color:#111">:</span> <span style="color:#ae81ff">2</span><span style="color:#111">,</span>
-            <span style="color:#f92672">&#34;name&#34;</span><span style="color:#111">:</span> <span style="color:#d88200">&#34;Devmarks Demo&#34;</span><span style="color:#111">,</span>
-            <span style="color:#f92672">&#34;url&#34;</span><span style="color:#111">:</span> <span style="color:#d88200">&#34;https://demo.devmarks.app&#34;</span>
-        <span style="color:#111">}</span>
-    <span style="color:#111">]</span>
-<span style="color:#111">}</span>
-</code></pre></div><p>Side Note: I picked the word &ldquo;embed&rdquo; here, but there is no standard around this.
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>&lt;baseUrl&gt;/folders/&lt;id&gt;/?embed<span style="color:#f92672">=</span>bookmarks
+</span></span></code></pre></div><p>With that, you would receive a response body similar to the following:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JSON" data-lang="JSON"><span style="display:flex;"><span><span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;id&#34;</span><span style="color:#111">:</span> <span style="color:#ae81ff">1</span><span style="color:#111">,</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;name&#34;</span><span style="color:#111">:</span> <span style="color:#d88200">&#34;folder&#34;</span><span style="color:#111">,</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;bookmarks&#34;</span><span style="color:#111">:</span> <span style="color:#111">[</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;id&#34;</span><span style="color:#111">:</span> <span style="color:#ae81ff">1</span><span style="color:#111">,</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;name&#34;</span><span style="color:#111">:</span> <span style="color:#d88200">&#34;My Website&#34;</span><span style="color:#111">,</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;url&#34;</span><span style="color:#111">:</span> <span style="color:#d88200">&#34;https://chrisleggett.me&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">},</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;id&#34;</span><span style="color:#111">:</span> <span style="color:#ae81ff">2</span><span style="color:#111">,</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;name&#34;</span><span style="color:#111">:</span> <span style="color:#d88200">&#34;Devmarks Demo&#34;</span><span style="color:#111">,</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;url&#34;</span><span style="color:#111">:</span> <span style="color:#d88200">&#34;https://demo.devmarks.app&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">]</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></div><p>Side Note: I picked the word &ldquo;embed&rdquo; here, but there is no standard around this.
 It would be just as valid for you to choose &ldquo;preload&rdquo; or &ldquo;include&rdquo;. As long
 as your choice is documented with the rest of your api documentation, it
 ultimately doesn&rsquo;t matter.</p>
@@ -193,41 +193,41 @@ saving it in the context via middleware so it can be pulled out of the context
 later in any method down the line. As such, we need to setup a key for the
 context to use for storing and retrieving the embed values. I define this
 in a separate helpers package in order to avoid cyclical imports.</p>
-<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Go" data-lang="Go"><span style="color:#75715e">// helpers/ctx.go
-</span><span style="color:#75715e"></span><span style="color:#f92672">package</span> <span style="color:#75af00">helpers</span>
-
-<span style="color:#00a8c8">type</span> <span style="color:#75af00">contextKey</span> <span style="color:#00a8c8">struct</span> <span style="color:#111">{</span>
-	<span style="color:#75af00">key</span> <span style="color:#00a8c8">string</span>
-<span style="color:#111">}</span>
-<span style="color:#00a8c8">var</span> <span style="color:#75af00">EmbedsKey</span> <span style="color:#111">=</span> <span style="color:#75af00">contextKey</span><span style="color:#111">{</span><span style="color:#d88200">&#34;embeds&#34;</span><span style="color:#111">}</span>
-
-<span style="color:#75715e">// Wherever you choose to define this middleware
-</span><span style="color:#75715e"></span><span style="color:#f92672">...</span>
-<span style="color:#f92672">import</span> <span style="color:#111">&lt;</span><span style="color:#75af00">project_url</span><span style="color:#111">&gt;</span><span style="color:#f92672">/</span><span style="color:#75af00">helpers</span>
-<span style="color:#f92672">...</span>
-<span style="color:#00a8c8">func</span> <span style="color:#75af00">apiMiddleware</span><span style="color:#111">(</span><span style="color:#75af00">next</span> <span style="color:#75af00">http</span><span style="color:#111">.</span><span style="color:#75af00">Handler</span><span style="color:#111">)</span> <span style="color:#75af00">http</span><span style="color:#111">.</span><span style="color:#75af00">Handler</span> <span style="color:#111">{</span>
-	<span style="color:#00a8c8">return</span> <span style="color:#75af00">http</span><span style="color:#111">.</span><span style="color:#75af00">HandlerFunc</span><span style="color:#111">(</span><span style="color:#00a8c8">func</span><span style="color:#111">(</span><span style="color:#75af00">w</span> <span style="color:#75af00">http</span><span style="color:#111">.</span><span style="color:#75af00">ResponseWriter</span><span style="color:#111">,</span> <span style="color:#75af00">r</span> <span style="color:#f92672">*</span><span style="color:#75af00">http</span><span style="color:#111">.</span><span style="color:#75af00">Request</span><span style="color:#111">)</span> <span style="color:#111">{</span>
-		<span style="color:#75af00">values</span> <span style="color:#f92672">:=</span> <span style="color:#75af00">r</span><span style="color:#111">.</span><span style="color:#75af00">URL</span><span style="color:#111">.</span><span style="color:#75af00">Query</span><span style="color:#111">()</span>
-		<span style="color:#75af00">embeds</span> <span style="color:#f92672">:=</span> <span style="color:#75af00">strings</span><span style="color:#111">.</span><span style="color:#75af00">Split</span><span style="color:#111">(</span><span style="color:#75af00">values</span><span style="color:#111">.</span><span style="color:#75af00">Get</span><span style="color:#111">(</span><span style="color:#d88200">&#34;embed&#34;</span><span style="color:#111">),</span> <span style="color:#d88200">&#34;,&#34;</span><span style="color:#111">)</span>
-		<span style="color:#75af00">ctx</span> <span style="color:#f92672">:=</span> <span style="color:#75af00">r</span><span style="color:#111">.</span><span style="color:#75af00">Context</span><span style="color:#111">()</span>
-		<span style="color:#75af00">ctx</span> <span style="color:#111">=</span> <span style="color:#75af00">context</span><span style="color:#111">.</span><span style="color:#75af00">WithValue</span><span style="color:#111">(</span><span style="color:#75af00">ctx</span><span style="color:#111">,</span> <span style="color:#75af00">helpers</span><span style="color:#111">.</span><span style="color:#75af00">EmbedsKey</span><span style="color:#111">,</span> <span style="color:#75af00">embeds</span><span style="color:#111">)</span>
-		<span style="color:#75af00">next</span><span style="color:#111">.</span><span style="color:#75af00">ServeHTTP</span><span style="color:#111">(</span><span style="color:#75af00">w</span><span style="color:#111">,</span> <span style="color:#75af00">r</span><span style="color:#111">.</span><span style="color:#75af00">WithContext</span><span style="color:#111">(</span><span style="color:#75af00">ctx</span><span style="color:#111">))</span>
-		
-	<span style="color:#111">})</span>
-<span style="color:#111">}</span>
-</code></pre></div><p>As you can see, the helpers package defines a contextKey struct and defines an
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Go" data-lang="Go"><span style="display:flex;"><span><span style="color:#75715e">// helpers/ctx.go
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#f92672">package</span> <span style="color:#75af00">helpers</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">type</span> <span style="color:#75af00">contextKey</span> <span style="color:#00a8c8">struct</span> <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75af00">key</span> <span style="color:#00a8c8">string</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">var</span> <span style="color:#75af00">EmbedsKey</span> <span style="color:#111">=</span> <span style="color:#75af00">contextKey</span><span style="color:#111">{</span><span style="color:#d88200">&#34;embeds&#34;</span><span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Wherever you choose to define this middleware
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> <span style="color:#111">&lt;</span><span style="color:#75af00">project_url</span><span style="color:#111">&gt;</span><span style="color:#f92672">/</span><span style="color:#75af00">helpers</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">func</span> <span style="color:#75af00">apiMiddleware</span><span style="color:#111">(</span><span style="color:#75af00">next</span> <span style="color:#75af00">http</span><span style="color:#111">.</span><span style="color:#75af00">Handler</span><span style="color:#111">)</span> <span style="color:#75af00">http</span><span style="color:#111">.</span><span style="color:#75af00">Handler</span> <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#00a8c8">return</span> <span style="color:#75af00">http</span><span style="color:#111">.</span><span style="color:#75af00">HandlerFunc</span><span style="color:#111">(</span><span style="color:#00a8c8">func</span><span style="color:#111">(</span><span style="color:#75af00">w</span> <span style="color:#75af00">http</span><span style="color:#111">.</span><span style="color:#75af00">ResponseWriter</span><span style="color:#111">,</span> <span style="color:#75af00">r</span> <span style="color:#f92672">*</span><span style="color:#75af00">http</span><span style="color:#111">.</span><span style="color:#75af00">Request</span><span style="color:#111">)</span> <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#75af00">values</span> <span style="color:#f92672">:=</span> <span style="color:#75af00">r</span><span style="color:#111">.</span><span style="color:#75af00">URL</span><span style="color:#111">.</span><span style="color:#75af00">Query</span><span style="color:#111">()</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#75af00">embeds</span> <span style="color:#f92672">:=</span> <span style="color:#75af00">strings</span><span style="color:#111">.</span><span style="color:#75af00">Split</span><span style="color:#111">(</span><span style="color:#75af00">values</span><span style="color:#111">.</span><span style="color:#75af00">Get</span><span style="color:#111">(</span><span style="color:#d88200">&#34;embed&#34;</span><span style="color:#111">),</span> <span style="color:#d88200">&#34;,&#34;</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#75af00">ctx</span> <span style="color:#f92672">:=</span> <span style="color:#75af00">r</span><span style="color:#111">.</span><span style="color:#75af00">Context</span><span style="color:#111">()</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#75af00">ctx</span> <span style="color:#111">=</span> <span style="color:#75af00">context</span><span style="color:#111">.</span><span style="color:#75af00">WithValue</span><span style="color:#111">(</span><span style="color:#75af00">ctx</span><span style="color:#111">,</span> <span style="color:#75af00">helpers</span><span style="color:#111">.</span><span style="color:#75af00">EmbedsKey</span><span style="color:#111">,</span> <span style="color:#75af00">embeds</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#75af00">next</span><span style="color:#111">.</span><span style="color:#75af00">ServeHTTP</span><span style="color:#111">(</span><span style="color:#75af00">w</span><span style="color:#111">,</span> <span style="color:#75af00">r</span><span style="color:#111">.</span><span style="color:#75af00">WithContext</span><span style="color:#111">(</span><span style="color:#75af00">ctx</span><span style="color:#111">))</span>
+</span></span><span style="display:flex;"><span>		
+</span></span><span style="display:flex;"><span>	<span style="color:#111">})</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></div><p>As you can see, the helpers package defines a contextKey struct and defines an
 exported instance of that key called <code>EmbedsKey</code>. Wherever we define our middleware,
 we then import the helpers package and use the <code>EmbedsKey</code> to save an array of
 strings that we extracted from the <code>embeds</code> query parameter. We then move onto
 our next middleware/final handler passing in the <code>ResponseWriter</code> and the <code>Request</code>
 object with our modifed context inside.</p>
 <p>Make sure you use the middleware in your router.</p>
-<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Go" data-lang="Go"><span style="color:#f92672">import</span> 	<span style="color:#d88200">&#34;github.com/gorilla/mux&#34;</span>
-
-<span style="color:#75af00">r</span> <span style="color:#f92672">:=</span> <span style="color:#75af00">mux</span><span style="color:#111">.</span><span style="color:#75af00">NewRouter</span><span style="color:#111">()</span>
-<span style="color:#75af00">r</span><span style="color:#111">.</span><span style="color:#75af00">Use</span><span style="color:#111">(</span><span style="color:#75af00">apiMiddleware</span><span style="color:#111">)</span>
-<span style="color:#75715e">// your routes and handlers here
-</span></code></pre></div><p>Next, your request goes through your handler and eventually makes it to your
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Go" data-lang="Go"><span style="display:flex;"><span><span style="color:#f92672">import</span> 	<span style="color:#d88200">&#34;github.com/gorilla/mux&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75af00">r</span> <span style="color:#f92672">:=</span> <span style="color:#75af00">mux</span><span style="color:#111">.</span><span style="color:#75af00">NewRouter</span><span style="color:#111">()</span>
+</span></span><span style="display:flex;"><span><span style="color:#75af00">r</span><span style="color:#111">.</span><span style="color:#75af00">Use</span><span style="color:#111">(</span><span style="color:#75af00">apiMiddleware</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// your routes and handlers here
+</span></span></span></code></pre></div><p>Next, your request goes through your handler and eventually makes it to your
 database code. Make sure your handler function extracts the context from the
 <code>Request</code> (<code>ctx := r.Context())</code> and then passes it down to your database handling package.
 This is where I extract the embeds array we saved in the context
@@ -237,65 +237,65 @@ to make sure they are valid associations in your database, as there&rsquo;s noth
 stopping an api consumer from putting anything at all in the embeds value.</p>
 <p>To start off with, let&rsquo;s wrap the logic around setting up the <code>*gorm.DB</code> instance
 with the preloads.</p>
-<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Go" data-lang="Go"><span style="color:#f92672">package</span> <span style="color:#75af00">db</span>
-
-<span style="color:#00a8c8">type</span> <span style="color:#75af00">Database</span> <span style="color:#00a8c8">struct</span> <span style="color:#111">{</span>
-	<span style="color:#f92672">*</span><span style="color:#75af00">gorm</span><span style="color:#111">.</span><span style="color:#75af00">DB</span>
-<span style="color:#111">}</span>
-
-<span style="color:#75715e">// You should probably put this in your helpers package,
-</span><span style="color:#75715e">// I have it here for clarity.
-</span><span style="color:#75715e"></span><span style="color:#00a8c8">func</span> <span style="color:#75af00">contains</span><span style="color:#111">(</span><span style="color:#75af00">array</span> <span style="color:#111">[]</span><span style="color:#00a8c8">string</span><span style="color:#111">,</span> <span style="color:#75af00">s</span> <span style="color:#00a8c8">string</span><span style="color:#111">)</span> <span style="color:#00a8c8">bool</span> <span style="color:#111">{</span>
-	<span style="color:#00a8c8">for</span> <span style="color:#75af00">_</span><span style="color:#111">,</span> <span style="color:#75af00">x</span> <span style="color:#f92672">:=</span> <span style="color:#00a8c8">range</span> <span style="color:#75af00">array</span> <span style="color:#111">{</span>
-		<span style="color:#00a8c8">if</span> <span style="color:#75af00">x</span> <span style="color:#f92672">==</span> <span style="color:#75af00">s</span> <span style="color:#111">{</span>
-			<span style="color:#00a8c8">return</span> <span style="color:#00a8c8">true</span>
-		<span style="color:#111">}</span>
-	<span style="color:#111">}</span>
-	<span style="color:#00a8c8">return</span> <span style="color:#00a8c8">false</span>
-<span style="color:#111">}</span>
-
-<span style="color:#00a8c8">func</span> <span style="color:#111">(</span><span style="color:#75af00">db</span> <span style="color:#f92672">*</span><span style="color:#75af00">Database</span><span style="color:#111">)</span> <span style="color:#75af00">preloadEmbeds</span><span style="color:#111">(</span><span style="color:#75af00">valid</span> <span style="color:#111">[]</span><span style="color:#00a8c8">string</span><span style="color:#111">,</span> <span style="color:#75af00">embeds</span> <span style="color:#111">[]</span><span style="color:#00a8c8">string</span><span style="color:#111">)</span> <span style="color:#f92672">*</span><span style="color:#75af00">gorm</span><span style="color:#111">.</span><span style="color:#75af00">DB</span> <span style="color:#111">{</span>
-	<span style="color:#00a8c8">var</span> <span style="color:#75af00">instance</span> <span style="color:#111">=</span> <span style="color:#75af00">db</span><span style="color:#111">.</span><span style="color:#75af00">DB</span>
-	<span style="color:#00a8c8">for</span> <span style="color:#75af00">_</span><span style="color:#111">,</span> <span style="color:#75af00">embed</span> <span style="color:#f92672">:=</span> <span style="color:#00a8c8">range</span> <span style="color:#75af00">embeds</span> <span style="color:#111">{</span>
-		<span style="color:#00a8c8">if</span> <span style="color:#75af00">contains</span><span style="color:#111">(</span><span style="color:#75af00">valid</span><span style="color:#111">,</span> <span style="color:#75af00">embed</span><span style="color:#111">)</span> <span style="color:#111">{</span>
-			<span style="color:#75af00">instance</span> <span style="color:#111">=</span> <span style="color:#75af00">instance</span><span style="color:#111">.</span><span style="color:#75af00">Preload</span><span style="color:#111">(</span><span style="color:#75af00">strings</span><span style="color:#111">.</span><span style="color:#75af00">Title</span><span style="color:#111">(</span><span style="color:#75af00">embed</span><span style="color:#111">))</span>
-		<span style="color:#111">}</span>
-	<span style="color:#111">}</span>
-	<span style="color:#00a8c8">return</span> <span style="color:#75af00">instance</span>
-<span style="color:#111">}</span>
-</code></pre></div><p>This function takes an array of valid embed values and the ones that were
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Go" data-lang="Go"><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#75af00">db</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">type</span> <span style="color:#75af00">Database</span> <span style="color:#00a8c8">struct</span> <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#f92672">*</span><span style="color:#75af00">gorm</span><span style="color:#111">.</span><span style="color:#75af00">DB</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// You should probably put this in your helpers package,
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// I have it here for clarity.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#00a8c8">func</span> <span style="color:#75af00">contains</span><span style="color:#111">(</span><span style="color:#75af00">array</span> <span style="color:#111">[]</span><span style="color:#00a8c8">string</span><span style="color:#111">,</span> <span style="color:#75af00">s</span> <span style="color:#00a8c8">string</span><span style="color:#111">)</span> <span style="color:#00a8c8">bool</span> <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#00a8c8">for</span> <span style="color:#75af00">_</span><span style="color:#111">,</span> <span style="color:#75af00">x</span> <span style="color:#f92672">:=</span> <span style="color:#00a8c8">range</span> <span style="color:#75af00">array</span> <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#00a8c8">if</span> <span style="color:#75af00">x</span> <span style="color:#f92672">==</span> <span style="color:#75af00">s</span> <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>			<span style="color:#00a8c8">return</span> <span style="color:#00a8c8">true</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#00a8c8">return</span> <span style="color:#00a8c8">false</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">func</span> <span style="color:#111">(</span><span style="color:#75af00">db</span> <span style="color:#f92672">*</span><span style="color:#75af00">Database</span><span style="color:#111">)</span> <span style="color:#75af00">preloadEmbeds</span><span style="color:#111">(</span><span style="color:#75af00">valid</span> <span style="color:#111">[]</span><span style="color:#00a8c8">string</span><span style="color:#111">,</span> <span style="color:#75af00">embeds</span> <span style="color:#111">[]</span><span style="color:#00a8c8">string</span><span style="color:#111">)</span> <span style="color:#f92672">*</span><span style="color:#75af00">gorm</span><span style="color:#111">.</span><span style="color:#75af00">DB</span> <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#00a8c8">var</span> <span style="color:#75af00">instance</span> <span style="color:#111">=</span> <span style="color:#75af00">db</span><span style="color:#111">.</span><span style="color:#75af00">DB</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#00a8c8">for</span> <span style="color:#75af00">_</span><span style="color:#111">,</span> <span style="color:#75af00">embed</span> <span style="color:#f92672">:=</span> <span style="color:#00a8c8">range</span> <span style="color:#75af00">embeds</span> <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#00a8c8">if</span> <span style="color:#75af00">contains</span><span style="color:#111">(</span><span style="color:#75af00">valid</span><span style="color:#111">,</span> <span style="color:#75af00">embed</span><span style="color:#111">)</span> <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>			<span style="color:#75af00">instance</span> <span style="color:#111">=</span> <span style="color:#75af00">instance</span><span style="color:#111">.</span><span style="color:#75af00">Preload</span><span style="color:#111">(</span><span style="color:#75af00">strings</span><span style="color:#111">.</span><span style="color:#75af00">Title</span><span style="color:#111">(</span><span style="color:#75af00">embed</span><span style="color:#111">))</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#00a8c8">return</span> <span style="color:#75af00">instance</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></div><p>This function takes an array of valid embed values and the ones that were
 provided in the request. It then returns an instance of <code>*gorm.DB</code> with the
 Preloads prepared. It currently just ignores any invalid embed values that are
 provided. If no embed values are provided, then it simply returns the same <code>*gorm.DB</code>
 instance it was called on. As this returns a <code>*gorm.DB</code>, we can immediately chain a <code>First()</code> or
 <code>Find()</code> method, for instance, off of this function. For example:</p>
-<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Go" data-lang="Go"><span style="color:#75715e">// db/folder.go
-</span><span style="color:#75715e"></span><span style="color:#00a8c8">func</span> <span style="color:#111">(</span><span style="color:#75af00">db</span> <span style="color:#f92672">*</span><span style="color:#75af00">Database</span><span style="color:#111">)</span> <span style="color:#75af00">GetFolderByID</span><span style="color:#111">(</span><span style="color:#75af00">ctx</span> <span style="color:#75af00">context</span><span style="color:#111">.</span><span style="color:#75af00">Context</span><span style="color:#111">,</span> <span style="color:#75af00">id</span> <span style="color:#00a8c8">uint</span><span style="color:#111">)</span> <span style="color:#111">(</span><span style="color:#f92672">*</span><span style="color:#75af00">model</span><span style="color:#111">.</span><span style="color:#75af00">Folder</span><span style="color:#111">,</span> <span style="color:#00a8c8">error</span><span style="color:#111">)</span> <span style="color:#111">{</span>
-	<span style="color:#00a8c8">var</span> <span style="color:#75af00">folder</span> <span style="color:#75af00">model</span><span style="color:#111">.</span><span style="color:#75af00">Folder</span>
-	<span style="color:#75af00">embeds</span><span style="color:#111">,</span> <span style="color:#75af00">ok</span> <span style="color:#f92672">:=</span> <span style="color:#75af00">ctx</span><span style="color:#111">.</span><span style="color:#75af00">Value</span><span style="color:#111">(</span><span style="color:#75af00">helpers</span><span style="color:#111">.</span><span style="color:#75af00">EmbedsKey</span><span style="color:#111">).([]</span><span style="color:#00a8c8">string</span><span style="color:#111">)</span>
-	<span style="color:#00a8c8">if</span> <span style="color:#111">!</span><span style="color:#75af00">ok</span> <span style="color:#111">{</span>
-		<span style="color:#00a8c8">return</span> <span style="color:#00a8c8">nil</span><span style="color:#111">,</span> <span style="color:#75af00">errors</span><span style="color:#111">.</span><span style="color:#75af00">New</span><span style="color:#111">(</span><span style="color:#d88200">&#34;embeds parsing error&#34;</span><span style="color:#111">)</span>
-	<span style="color:#111">}</span>
-	<span style="color:#00a8c8">return</span> <span style="color:#f92672">&amp;</span><span style="color:#75af00">folder</span><span style="color:#111">,</span> <span style="color:#75af00">errors</span><span style="color:#111">.</span><span style="color:#75af00">Wrap</span><span style="color:#111">(</span><span style="color:#75af00">db</span><span style="color:#111">.</span><span style="color:#75af00">preloadEmbeds</span><span style="color:#111">(</span><span style="color:#75af00">model</span><span style="color:#111">.</span><span style="color:#75af00">FolderValidEmbeds</span><span style="color:#111">(),</span> <span style="color:#75af00">embeds</span><span style="color:#111">).</span>
-        <span style="color:#75af00">First</span><span style="color:#111">(</span><span style="color:#f92672">&amp;</span><span style="color:#75af00">folder</span><span style="color:#111">,</span> <span style="color:#75af00">id</span><span style="color:#111">).</span><span style="color:#75af00">Error</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;unable to get folder&#34;</span><span style="color:#111">)</span>
-<span style="color:#111">}</span>
-
-<span style="color:#75715e">// model/folder.go
-</span><span style="color:#75715e"></span><span style="color:#f92672">package</span> <span style="color:#75af00">model</span>
-
-<span style="color:#00a8c8">type</span> <span style="color:#75af00">Folder</span> <span style="color:#00a8c8">struct</span> <span style="color:#111">{</span>
-    <span style="color:#75af00">ID</span>    <span style="color:#00a8c8">uint</span> <span style="color:#d88200">`json:&#34;id&#34;`</span>
-	<span style="color:#75af00">Name</span>  <span style="color:#00a8c8">string</span> <span style="color:#d88200">`json:&#34;name&#34;`</span>
-
-	<span style="color:#75af00">Bookmarks</span> <span style="color:#111">[]</span><span style="color:#75af00">Bookmark</span> <span style="color:#d88200">`gorm:&#34;many2many:bookmark_folder;&#34; json:&#34;bookmarks&#34;`</span>
-<span style="color:#111">}</span>
-
-<span style="color:#75715e">// Add strings to the array to allow embedding that resource through the
-</span><span style="color:#75715e">// embed query paramter.
-</span><span style="color:#75715e"></span><span style="color:#00a8c8">func</span> <span style="color:#75af00">FolderValidEmbeds</span><span style="color:#111">()</span> <span style="color:#111">[]</span><span style="color:#00a8c8">string</span> <span style="color:#111">{</span>
-	<span style="color:#00a8c8">return</span> <span style="color:#111">[]</span><span style="color:#00a8c8">string</span><span style="color:#111">{</span><span style="color:#d88200">&#34;bookmarks&#34;</span><span style="color:#111">}</span>
-<span style="color:#111">}</span>
-</code></pre></div><p>Unfortunately Go does not have a good equivalent to static methods, so the next
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Go" data-lang="Go"><span style="display:flex;"><span><span style="color:#75715e">// db/folder.go
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#00a8c8">func</span> <span style="color:#111">(</span><span style="color:#75af00">db</span> <span style="color:#f92672">*</span><span style="color:#75af00">Database</span><span style="color:#111">)</span> <span style="color:#75af00">GetFolderByID</span><span style="color:#111">(</span><span style="color:#75af00">ctx</span> <span style="color:#75af00">context</span><span style="color:#111">.</span><span style="color:#75af00">Context</span><span style="color:#111">,</span> <span style="color:#75af00">id</span> <span style="color:#00a8c8">uint</span><span style="color:#111">)</span> <span style="color:#111">(</span><span style="color:#f92672">*</span><span style="color:#75af00">model</span><span style="color:#111">.</span><span style="color:#75af00">Folder</span><span style="color:#111">,</span> <span style="color:#00a8c8">error</span><span style="color:#111">)</span> <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#00a8c8">var</span> <span style="color:#75af00">folder</span> <span style="color:#75af00">model</span><span style="color:#111">.</span><span style="color:#75af00">Folder</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75af00">embeds</span><span style="color:#111">,</span> <span style="color:#75af00">ok</span> <span style="color:#f92672">:=</span> <span style="color:#75af00">ctx</span><span style="color:#111">.</span><span style="color:#75af00">Value</span><span style="color:#111">(</span><span style="color:#75af00">helpers</span><span style="color:#111">.</span><span style="color:#75af00">EmbedsKey</span><span style="color:#111">).([]</span><span style="color:#00a8c8">string</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#00a8c8">if</span> <span style="color:#111">!</span><span style="color:#75af00">ok</span> <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#00a8c8">return</span> <span style="color:#00a8c8">nil</span><span style="color:#111">,</span> <span style="color:#75af00">errors</span><span style="color:#111">.</span><span style="color:#75af00">New</span><span style="color:#111">(</span><span style="color:#d88200">&#34;embeds parsing error&#34;</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#00a8c8">return</span> <span style="color:#f92672">&amp;</span><span style="color:#75af00">folder</span><span style="color:#111">,</span> <span style="color:#75af00">errors</span><span style="color:#111">.</span><span style="color:#75af00">Wrap</span><span style="color:#111">(</span><span style="color:#75af00">db</span><span style="color:#111">.</span><span style="color:#75af00">preloadEmbeds</span><span style="color:#111">(</span><span style="color:#75af00">model</span><span style="color:#111">.</span><span style="color:#75af00">FolderValidEmbeds</span><span style="color:#111">(),</span> <span style="color:#75af00">embeds</span><span style="color:#111">).</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75af00">First</span><span style="color:#111">(</span><span style="color:#f92672">&amp;</span><span style="color:#75af00">folder</span><span style="color:#111">,</span> <span style="color:#75af00">id</span><span style="color:#111">).</span><span style="color:#75af00">Error</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;unable to get folder&#34;</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// model/folder.go
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#f92672">package</span> <span style="color:#75af00">model</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">type</span> <span style="color:#75af00">Folder</span> <span style="color:#00a8c8">struct</span> <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75af00">ID</span>    <span style="color:#00a8c8">uint</span> <span style="color:#d88200">`json:&#34;id&#34;`</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75af00">Name</span>  <span style="color:#00a8c8">string</span> <span style="color:#d88200">`json:&#34;name&#34;`</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75af00">Bookmarks</span> <span style="color:#111">[]</span><span style="color:#75af00">Bookmark</span> <span style="color:#d88200">`gorm:&#34;many2many:bookmark_folder;&#34; json:&#34;bookmarks&#34;`</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Add strings to the array to allow embedding that resource through the
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// embed query paramter.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#00a8c8">func</span> <span style="color:#75af00">FolderValidEmbeds</span><span style="color:#111">()</span> <span style="color:#111">[]</span><span style="color:#00a8c8">string</span> <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#00a8c8">return</span> <span style="color:#111">[]</span><span style="color:#00a8c8">string</span><span style="color:#111">{</span><span style="color:#d88200">&#34;bookmarks&#34;</span><span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></div><p>Unfortunately Go does not have a good equivalent to static methods, so the next
 best thing is to define a namespaced exported function in the models package
 that returns an array of strings which represent the list of valid embed values.
 I named this one <code>FolderValidEmbeds</code>. If later on we develop a relationship
